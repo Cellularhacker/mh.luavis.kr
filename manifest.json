@@ -1,0 +1,13 @@
+{
+  "name": "마작입력기",
+  "icons": [
+    {
+      "src": "./imgs/icon.png",
+      "sizes": "175x175",
+      "type": "image/png",
+      "density": "1.0"
+    }
+  ],
+  "start_url": "index.php",
+  "display": "standalone"
+}
