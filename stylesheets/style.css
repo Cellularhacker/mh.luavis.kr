@@ -2,6 +2,9 @@ html, body{
 	margin: 0;
 	font-family: "나눔고딕", NanumGothic, "AppleSDGothic", "맑은고딕";
 }	
+input[type="text"]:focus {
+  outline: none
+}
 #contents {
 	width: 100%;
 	margin: 0 auto;
