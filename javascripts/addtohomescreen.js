@@ -104,7 +104,7 @@ ath.intl = {
 	},
 	ko_kr: {
 		ios: '이 웹앱을 홈 스크린에 추가하기 위해서: %icon을 누르시고 <strong>홈 화면에 추가</strong>.',
-		android: 'To add this web app to the home screen open the browser option menu and tap on <strong>Add to homescreen</strong>. <small>The menu can be accessed by pressing the menu hardware button if your device has one, or by tapping the top right menu icon <span class="ath-action-icon">icon</span>.</small>',
+		android: '이 웹앱을 홈 화면에 추가하기 위해서 크롬의 옵션에 오른쪽 상단 홈화면의 추가를 누르세요.',
 	},
 	ja_jp: {
 		ios: 'このウェプアプリをホーム画面に追加するために%iconを押して<strong>ホーム画面に追加</strong>。',
@@ -127,8 +127,8 @@ ath.defaults = {
 	autostart: true,			// show the message automatically
 	skipFirstVisit: false,		// show only to returning visitors (ie: skip the first time you visit)
 	startDelay: 1,				// display the message after that many seconds from page load
-	lifespan: 15,				// life of the message in seconds
-	displayPace: 1440,			// minutes before the message is shown again (0: display every time, default 24 hours)
+	lifespan: 8,				// life of the message in seconds
+	displayPace: 1440 * 10,			// minutes before the message is shown again (0: display every time, default 24 hours)
 	maxDisplayCount: 0,			// absolute maximum number of times the message will be shown to the user (0: no limit)
 	icon: true,					// add touch icon to the message
 	message: '',				// the message can be customized
