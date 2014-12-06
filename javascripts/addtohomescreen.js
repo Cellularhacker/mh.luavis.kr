@@ -167,7 +167,7 @@ ath.OSVersion = ath.OSVersion && ath.OSVersion[2] ? +ath.OSVersion[2].replace('_
 ath.isStandalone = window.navigator.standalone || ( ath.isMobileChrome && ( screen.height - document.documentElement.clientHeight < 40 ) );	// TODO: check the lame polyfill
 ath.isTablet = (ath.isMobileSafari && _ua.indexOf('iPad') > -1) || (ath.isMobileChrome && _ua.indexOf('Mobile') < 0);
 
-ath.isCompatible = (ath.isMobileSafari && ath.OSVersion >= 6) || ath.isMobileChrome;	// TODO: add winphone
+ath.isCompatible = (ath.isMobileSafari && ath.OSVersion >= 6);	// TODO: add winphone
 
 var _defaultSession = {
 	lastDisplayTime: 0,			// last time we displayed the message
